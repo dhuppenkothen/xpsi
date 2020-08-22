@@ -42,9 +42,9 @@ of the Universe at its very seams.
 There exist open-source libraries and packages to support a subset of the
 modeling treated in astrophysical literature. They provide frameworks, toolsets,
 model implementations, and so on. One sub-field for which there does not exist
-an open-source project for the statistical modeling of X-ray signals that pulse
-due to rotational modulation of asymmetric emission from the surface of a
-neutron star. Pulsing X-ray signals from neutron stars are analyzed to
+such an open-source project, is for the statistical modeling of X-ray signals
+that pulse due to rotational modulation of asymmetric emission from the surface
+of a neutron star. Pulsing X-ray signals from neutron stars are analyzed to
 statistically estimate parameters such as stellar mass and radius. Such
 parameter estimation requires relativistic ray-tracing of radiation as it
 propagates from surface to a distant telescope.
