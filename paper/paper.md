@@ -46,8 +46,8 @@ such an open-source project, is for the statistical modeling of X-ray signals
 that pulse due to rotational modulation of asymmetric emission from the surface
 of a neutron star. Pulsing X-ray signals from neutron stars are analyzed to
 statistically estimate parameters such as stellar mass and radius. Such
-parameter estimation requires relativistic ray-tracing of radiation as it
-propagates from surface to a distant telescope.
+parameter estimation requires relativistic tracing of radiation rays as they
+propagate from surface to a distant telescope.
 
 Likelihood information about the mass and radius of a given neutron star is
 utilized in an array of contexts. A pertinent example is post-processing of the
