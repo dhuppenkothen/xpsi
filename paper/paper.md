@@ -35,7 +35,7 @@ burst driven by accretion of matter from a binary companion.
 
 By modeling the physical process that generates data observed by telescopes,
 astronomers and astrostatisticians make inferential statements about the nature
-of the Universe at its seams.
+of the Universe at its very seams.
 
 # Statement of need
 
