@@ -33,7 +33,7 @@ merging with another compact object, generating detectable gravitational wave
 and/or electromagnetic signals. An example of the latter would be a radiation
 burst fueled by accretion of matter from a binary companion.
 
-By modeling the physical process that generates data observed by telescopes,
+By modeling the physical process that generates data registered by telescopes,
 astronomers and astrostatisticians make inferential statements about the nature
 of the Universe at its very seams.
 
