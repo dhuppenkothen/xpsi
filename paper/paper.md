@@ -52,15 +52,15 @@ propagate from surface to a distant telescope.
 Likelihood information about the mass and radius of a given neutron star is
 utilized in an array of contexts. A pertinent example is post-processing of the
 likelihood into information about the equation of state of cold dense matter
-inside neutron stars. Contemporary and future telescopes are and will take aim
-at these pulsing stars: the apt example is the NICER (Neutron star Interior
-Composition ExploreR) X-ray telescope, a NASA payload installed on the
+inside neutron stars. Contemporary and future telescopes are taking and will
+take aim at these pulsing stars: the apt example is the NICER (Neutron star
+Interior Composition ExploreR) X-ray telescope, a NASA payload installed on the
 International Space Station.
 
 X-PSI is an open-source Python package for Bayesian modeling of time- and
 energy-resolved X-ray pulsations. X-PSI provides a framework for the
-implementation of custom models (likelihood and prior functions) and their
-coupling to open-source statistical sampling software for use on
+implementation of custom models (likelihood and prior functions) and for
+feeding those models to open-source statistical sampling software for use on
 high-performance computing systems. Notably, X-PSI has and is being implemented
 by the NICER collaboration for pulse-profile modeling of rotation-powered
 millisecond pulsars.
