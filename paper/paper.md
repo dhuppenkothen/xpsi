@@ -78,7 +78,7 @@ on GitHub under the MIT license.
 We acknowledge the following scientists for their contribution to the genesis,
 direction, and/or development (features and patches) of this project:
 Anna L. Watts, Yuri Cavecchi, Sebastien Guillot, Devarshi Choudhury,
-Emma van der Wateren, Anya Bilous, Geert Raaijmakers, The NICER collaboration, 
+Emma van der Wateren, Anna Bilous, Geert Raaijmakers, The NICER collaboration, 
 Bob de Witte, Sam Geen, Frank Chambers, Alex Chen, Daniela Huppenkothen,
 and Will M. Farr. More detailed acknowledgements are written in the project
 documentation [hosted](https://thomasedwardriley.github.io/xpsi/acknowledgements.html)
