@@ -91,12 +91,11 @@ an animation may be found in \autoref{fig:animation snapshot}. Posterior
 summaries can be plotted of the time- and energy-domain signals that a model
 pulsarm is inferred to generate, conditioned on observational data.
 
-[A snapshot from a time- and energy-resolved animation of a toy neutron star
+![A snapshot from a time- and energy-resolved animation of a toy neutron star
 that generates X-ray pulsations. The top three panels are sky maps of photon
 specific intensity, and the bottom panels show instantaneous integrals over
 the sky maps, together with sky map integrals at past times (bottom-left panel)
-and additional photon energies (bottom-right panel).
-\label{fig:animation snapshot}](_skymap_with_pulse_profile_and_spectrum.png)
+and additional photon energies (bottom-right panel).\label{fig:animation snapshot}](_skymap_with_pulse_profile_and_spectrum.png)
 
 Notably, X-PSI has and is being applied by the NICER collaboration for
 pulse-profile modeling of rotation-powered millisecond pulsars. The
