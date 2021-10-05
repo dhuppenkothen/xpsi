@@ -11,7 +11,7 @@ authors:
 affiliations:
     name: Anton Pannekoek Institute for Astronomy, University of Amsterdam
     index: 1
-date: 01 September 2020
+date: 05 October 2021
 bibliography: paper.bib
 ---
 
@@ -37,22 +37,43 @@ By modeling the physical process that generates data registered by telescopes,
 astronomers and astrostatisticians make inferential statements about the nature
 of the Universe at its very seams.
 
+
 # Statement of need
 
 There exist open-source libraries and packages to support a subset of the
 modeling treated in astrophysical literature. They provide frameworks, toolsets,
 model implementations, and so on. One sub-field for which there does not exist
-such an open-source project, is for the statistical modeling of X-ray signals
+such an open-source project, is for the *statistical modeling* of X-ray signals
 that pulse due to rotational modulation of asymmetric emission from the surface
-of a neutron star. Pulsing X-ray signals from neutron stars are analyzed to
+of a neutron star. Pulsing X-ray signals from neutron stars are modeled to
 statistically estimate parameters such as stellar mass and radius. Such
-parameter estimation requires relativistic tracing of radiation rays as they
-propagate from surface to a distant telescope.
+parameter estimation requires relativistic tracing of radiation as it propagates
+from surface to a distant telescope.
+
+There are a small number of open-source libraries for simulating the X-ray
+signals from rapidly spinning neutron stars and more generally from the
+vicinity of general relativistic compact objects (including black holes), but
+the scope of these projects does not include statistical modeling, which
+necessitates tractable parametrised models and a modular framework for
+constructing those models. The state-of-the-art example is the Arcmancer
+library of [@Pihajoki:2018], a general purpose toolbox that is wrapped by an
+updated version of the bender library of [@Nattila:2016] for the purpose of
+simulating X-ray signals from hot regions on the surfaces of rapidly rotating
+neutron stars. These general purpose libraries have a wide array of
+applications and would exhibit synergy with a library for statistical modeling
+of X-ray signals registered by space telescopes. The general purpose libraries
+are for example useful for accurate simulations of realistic, general
+relativistic neutron stars. A statistical modeling library would be useful for
+distilling such state-of-the-art models down to the principal components and
+forming much more approximative models, with a small number of parameters, that
+are nevertheless sufficient to generate data that is structured like the
+observational data; using such models, one can derive probabilistic information
+that represents our knowledge of neutron star properties.
 
 Likelihood information about the mass and radius of a given neutron star is
 utilized in an array of contexts. A pertinent example is post-processing of the
 likelihood into information about the equation of state of cold dense matter
-inside neutron stars. Contemporary and future telescopes are taking and will
+inside neutron stars. Contemporary and future telescopes are and would
 take aim at these pulsing stars: the apt example is the NICER (Neutron star
 Interior Composition ExploreR) X-ray telescope, a NASA payload installed on the
 International Space Station.
@@ -61,9 +82,29 @@ X-PSI is an open-source Python package for Bayesian modeling of time- and
 energy-resolved X-ray pulsations. X-PSI provides a framework for the
 implementation of custom models (likelihood and prior functions) and for
 feeding those models to open-source statistical sampling software for use on
-high-performance computing systems. Notably, X-PSI has and is being implemented
-by the NICER collaboration for pulse-profile modeling of rotation-powered
-millisecond pulsars.
+high-performance computing systems. X-PSI supplies modules for post-processing
+posterior sample sets, and supplies tools for visualisation. For example, one
+can generate time- and energy-resolved (animated) images of model X-ray pulsars
+by tracing radiation from the stellar surface to a distant observer (such as an
+Earthly space telescope) as it propagates through spacetime; a snapshot of such
+an animation may be found in \autoref{fig:animation snapshot}. Posterior
+summaries can be plotted of the time- and energy-domain signals that a model
+pulsarm is inferred to generate, conditioned on observational data.
+
+![A snapshot from a time- and energy-resolved animation of a toy neutron star
+that generates X-ray pulsations. The top three panels are sky maps of photon
+specific intensity, and the bottom panels show instantaneous integrals over
+the sky maps, together with sky map integrals at past times (bottom-left panel)
+and additional photon energies (bottom-right panel).
+\label{fig:animation snapshot}](_skymap_with_pulse_profile_and_spectrum.png)
+
+Notably, X-PSI has and is being applied by the NICER collaboration for
+pulse-profile modeling of rotation-powered millisecond pulsars. The
+publications that have directly applied the X-PSI package thus far are
+[@Riley:2019] and [@Riley:2021]. Many more publications have used the
+open-source analysis pipeline and products published on Zenodo to accompany
+these articles; these products may be accessed using the linked DOIs of
+[@Riley:2019:Zenodo] and [@Riley:2021:Zenodo].
 
 The numerical likelihood routines native to X-PSI are written in Cython, and
 are dependent on the GNU Scientific Library (GSL). High-level object-oriented
@@ -73,13 +114,20 @@ extensions (either directly in Cython or via calls to external C libraries).
 X-PSI is Unix source code compatible, and release versions are freely available
 on GitHub under the MIT license.
 
+
 # Acknowledgements
 
 We acknowledge the following scientists for their contribution to the genesis,
 direction, and/or development (features and patches) of this project:
-Anna L. Watts, Yuri Cavecchi, Sebastien Guillot, Devarshi Choudhury,
-Emma van der Wateren, Anna Bilous, Geert Raaijmakers, The NICER collaboration, 
-Bob de Witte, Sam Geen, Frank Chambers, Alex Chen, Daniela Huppenkothen,
-and Will M. Farr. More detailed acknowledgements are written in the project
+Anna L. Watts, Devarshi Choudhury, Serena Vinciguerra, Tuomo Salmi,
+Sebastien Guillot, Anna Bilous, Emma van der Wateren, Yves Kini, Yuri Cavecchi,
+Geert Raaijmakers, and The NICER collaboration.
+
+More detailed acknowledgements are written in the project
 documentation [hosted](https://thomasedwardriley.github.io/xpsi/acknowledgements.html)
 on GitHub.
+
+
+# References
+
+
