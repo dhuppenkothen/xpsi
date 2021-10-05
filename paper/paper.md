@@ -87,7 +87,7 @@ posterior sample sets, and supplies tools for visualisation. For example, one
 can generate time- and energy-resolved (animated) images of model X-ray pulsars
 by tracing radiation from the stellar surface to a distant observer (such as an
 Earthly space telescope) as it propagates through spacetime; a snapshot of such
-an animation may be found in \autoref{fig:animation snapshot}. Posterior
+an animation may be found in \autoref{fig:animation_snapshot}. Posterior
 summaries can be plotted of the time- and energy-domain signals that a model
 pulsarm is inferred to generate, conditioned on observational data.
 
@@ -95,7 +95,7 @@ pulsarm is inferred to generate, conditioned on observational data.
 that generates X-ray pulsations. The top three panels are sky maps of photon
 specific intensity, and the bottom panels show instantaneous integrals over
 the sky maps, together with sky map integrals at past times (bottom-left panel)
-and additional photon energies (bottom-right panel).\label{fig:animation snapshot}](_skymap_with_pulse_profile_and_spectrum.png)
+and additional photon energies (bottom-right panel).\label{fig:animation_snapshot}](_skymap_with_pulse_profile_and_spectrum.png){width=100%}
 
 Notably, X-PSI has and is being applied by the NICER collaboration for
 pulse-profile modeling of rotation-powered millisecond pulsars. The
