@@ -5,7 +5,7 @@ tags:
     - astrostatistics
     - neutron stars
 authors:
-    - name: Thomas E. Riley
+    - name: Thomas E. Riley^[corresponding author]
       orcid: 0000-0001-9313-0493
       affiliation: 1
 affiliations:
