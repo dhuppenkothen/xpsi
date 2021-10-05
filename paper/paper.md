@@ -6,8 +6,8 @@ tags:
     - neutron stars
 authors:
     - name: Thomas E. Riley
-    - orcid: 0000-0001-9313-0493
-    - affiliation: 1
+      orcid: 0000-0001-9313-0493
+      affiliation: 1
 affiliations:
     name: Anton Pannekoek Institute for Astronomy, University of Amsterdam
     index: 1
