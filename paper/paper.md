@@ -95,9 +95,11 @@ inferred to generate, conditioned on observational data.
 
 ![A snapshot from a time- and energy-resolved animation of a toy neutron star
 that generates X-ray pulsations. The top three panels are sky maps of photon
-specific intensity, and the bottom panels show instantaneous integrals over
-the sky maps, together with sky map integrals at past times (bottom-left panel)
-and additional photon energies (bottom-right panel).\label{fig:animation_snapshot}](_skymap_with_pulse_profile_and_spectrum_plot.png){width=100%}
+specific intensity at three representative photon energies, and the bottom
+panels show instantaneous integrals over the sky maps, together with sky map
+integrals at past times normalized to the maximum at each photon energy
+(bottom-left panel) and additional photon energies (bottom-right
+panel).\label{fig:animation_snapshot}](_skymap_with_pulse_profile_and_spectrum_plot.png){width=100%}
 
 Notably, X-PSI has and is being applied by the NICER collaboration for
 pulse-profile modeling of rotation-powered millisecond pulsars. The
