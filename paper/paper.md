@@ -109,20 +109,21 @@ may be accessed using the linked DOIs of @Riley:2019:Zenodo and
 @Bilous:2019, respectively on the topics of dense matter inference and
 multipolar magnetic fields.
 
-The numerical likelihood routines native to X-PSI are written in Cython, and
-are dependent on the GNU Scientific Library (GSL). High-level object-oriented
-model construction is performed by a user in the Python language, as is the
-interfacing with sampling software. Low-level customisation is encouraged in the
-extensions (either directly in Cython or via calls to external C libraries).
-X-PSI is Unix source code compatible, and release versions are freely available
-on GitHub under the MIT license.
+The numerical likelihood routines native to X-PSI are written in Cython
+[@cython2011], and are dependent on the GNU Scientific Library (GSL;
+@Gough:2009). High-level object-oriented model construction is performed by a
+user in the Python language, as is the interfacing with sampling software.
+Low-level customisation is encouraged in the extensions (either directly in
+Cython or via calls to external C libraries).  X-PSI is Unix source code
+compatible, and release versions are freely available on GitHub under the MIT
+license.
 
-*Software*: Python/C~language [@python2007], GNU~Scientific~Library
-[@Gough:2009], NumPy [@Numpy2011], Cython [@cython2011], OpenMP [@openmp], MPI
-for Pythn [@mpi4py], Matplotlib [@Hunter:2007,@matplotlibv2], IPython
+*Software:* Python/C language [@Python2007], GNU Scientific Library (GSL;
+@Gough:2009), NumPy [@Numpy2011], Cython [@cython2011], OpenMP [@openmp], MPI
+for Python [@mpi4py], Matplotlib [@Hunter:2007; @matplotlibv2], IPython
 [@IPython2007], Jupyter [@Kluyver:2016aa], MultiNest [@MultiNest_2009],
 PyMultiNest [@PyMultiNest], GetDist [@Lewis19], nestcheck
-[@higson2018nestcheck,@higson2018sampling,@higson2019diagnostic], fgivenx
+[@higson2018nestcheck;@higson2018sampling;@higson2019diagnostic], fgivenx
 [@fgivenx].
 
 # Acknowledgements
