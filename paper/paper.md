@@ -22,7 +22,7 @@ laboratories. The focus of this work is neutron stars, thought to be the most
 compact extended objects in the Universe. Observable radiation from a neutron
 star encodes information about fundamental physics (gravity, electromagnetism,
 and nuclear forces) and astrophysical processes (such as the state and evolution
-of a stellar magnetic field). Neutron stars are often detected by astronomers
+of a stellar magnetosphere). Neutron stars are often detected by astronomers
 because their radiative signal stably pulses due to bulk stellar rotation. For
 example, *pulsars* are typically detected in sky surveys because they stably
 pulse at radio, gamma, and X-ray wavelengths, akin to lighthouses in a dark
@@ -46,7 +46,7 @@ equation of state of internal matter (especially the dense matter in the core)
 and the formation history of the star (that determines the central energy
 density and the spin frequency); the state of the surface radiation field is
 the product of a potentially long and complex stellar evolutionary history,
-especially that of the stellar magnetic field. Such parameter estimation
+especially that of the stellar magnetosphere. Such parameter estimation
 requires relativistic tracing of radiation as it propagates from surface to a
 distant telescope.
 
@@ -117,6 +117,13 @@ extensions (either directly in Cython or via calls to external C libraries).
 X-PSI is Unix source code compatible, and release versions are freely available
 on GitHub under the MIT license.
 
+*Software*: Python/C~language [@python2007], GNU~Scientific~Library
+[@Gough:2009], NumPy [@Numpy2011], Cython [@cython2011], OpenMP [@openmp], MPI
+for Pythn [@mpi4py], Matplotlib [@Hunter:2007,@matplotlibv2], IPython
+[@IPython2007], Jupyter [@Kluyver:2016aa], MultiNest [@MultiNest_2009],
+PyMultiNest [@PyMultiNest], GetDist [@Lewis19], nestcheck
+[@higson2018nestcheck,@higson2018sampling,@higson2019diagnostic], fgivenx
+[@fgivenx].
 
 # Acknowledgements
 
